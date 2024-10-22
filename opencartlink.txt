@@ -1,0 +1,31 @@
+Opencart Frontend link - http://localhost/opencart/upload/
+
+
+Docker - Containerisation
+
+images commands
+====================================
+docker images                   		#Will show images available in machine       
+docker pull <image name>        		#Will pull image from dockerhub
+docker rmi <mage id>            		#Will remove image available in machine
+
+container commands
+====================================
+docker ps                      			#Will show running containers
+docker run -it <image name>         	#Will create container from image (if image present)/Will first download image then create container(if image not present)
+docker start <conatiner id/name>       	#Will start running the container
+docker stop <conatiner id/name>        	#Will stop running the conatiner
+docker rm <container id/name>   		#will remove the container
+
+
+
+
+Running Docker Containers by using below commands:
+========================================================================================================
+docker network create grid
+
+docker run -d -p 4442-4444:4442-4444 --net grid --name selenium-hub selenium/hub
+
+docker run -d --net grid -e SE_EVENT_BUS_HOST=selenium-hub -e SE_EVENT_BUS_PUBLISH_PORT=4442 -e SE_EVENT_BUS_SUBSCRIBE_PORT=4443 selenium/node-chrome
+
+docker run -d --net grid -e SE_EVENT_BUS_HOST=selenium-hub -e SE_EVENT_BUS_PUBLISH_PORT=4442 -e SE_EVENT_BUS_SUBSCRIBE_PORT=4443 selenium/node-firefox

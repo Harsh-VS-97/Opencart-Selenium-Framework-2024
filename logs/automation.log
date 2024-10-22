@@ -1,0 +1,10 @@
+17:41:12.384 [main] INFO  testCases.TC001_AccountRegisteration - ****** Testing Account Created Message ******
+17:41:12.528 [main] INFO  testCases.TC001_AccountRegisteration - ****** Continue Button on Account Created Confirmation Page ******
+17:41:12.528 [main] INFO  testCases.TC001_AccountRegisteration - ****** Ending TC001_Account_Registeration_Test ******
+17:41:13.935 [main] INFO  testCases.TC002_LoginTest - ****** Starting Login Test ******
+17:41:13.990 [main] INFO  testCases.TC002_LoginTest - ****** Clicking My Account ******
+17:41:15.177 [main] INFO  testCases.TC002_LoginTest - ****** Clicking Login ******
+17:41:16.271 [main] INFO  testCases.TC002_LoginTest - ****** Enter Email in Login Page ******
+17:41:17.412 [main] INFO  testCases.TC002_LoginTest - ****** Enter Password in Login Page ******
+17:41:18.582 [main] INFO  testCases.TC002_LoginTest - ****** Clicking Login Button in Login Page ******
+17:41:19.629 [main] INFO  testCases.TC002_LoginTest - ****** Ending Login Test ******
