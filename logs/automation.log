@@ -8,3 +8,24 @@
 17:41:17.412 [main] INFO  testCases.TC002_LoginTest - ****** Enter Password in Login Page ******
 17:41:18.582 [main] INFO  testCases.TC002_LoginTest - ****** Clicking Login Button in Login Page ******
 17:41:19.629 [main] INFO  testCases.TC002_LoginTest - ****** Ending Login Test ******
+18:57:21.020 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Selenium Framework Workspace\OpencartFrameworkV1.0\masters.xml"
+18:57:27.673 [main] INFO  testCases.TC001_AccountRegisteration - ****** Starting TC001_Account_Registeration_Test ******
+18:57:27.747 [main] INFO  testCases.TC001_AccountRegisteration - ****** Clicking My Accounts ******
+18:57:29.921 [main] INFO  testCases.TC001_AccountRegisteration - ****** Clicking Register ******
+18:57:31.932 [main] INFO  testCases.TC001_AccountRegisteration - ****** On Register Page ******
+18:57:31.995 [main] INFO  testCases.TC001_AccountRegisteration - ****** Enter First Name ******
+18:57:33.071 [main] INFO  testCases.TC001_AccountRegisteration - ****** Enter Last Name ******
+18:57:34.146 [main] INFO  testCases.TC001_AccountRegisteration - ****** Enter Email ******
+18:57:35.216 [main] INFO  testCases.TC001_AccountRegisteration - ****** Enter New Password ******
+18:57:36.364 [main] INFO  testCases.TC001_AccountRegisteration - ****** Clicking Privacy Policy Button ******
+18:57:37.512 [main] INFO  testCases.TC001_AccountRegisteration - ****** Clicking Continue Button on Register Page ******
+18:57:38.547 [main] INFO  testCases.TC001_AccountRegisteration - ****** Testing Account Created Message ******
+18:57:38.704 [main] INFO  testCases.TC001_AccountRegisteration - ****** Continue Button on Account Created Confirmation Page ******
+18:57:38.704 [main] INFO  testCases.TC001_AccountRegisteration - ****** Ending TC001_Account_Registeration_Test ******
+18:57:40.253 [main] INFO  testCases.TC002_LoginTest - ****** Starting Login Test ******
+18:57:40.302 [main] INFO  testCases.TC002_LoginTest - ****** Clicking My Account ******
+18:57:41.498 [main] INFO  testCases.TC002_LoginTest - ****** Clicking Login ******
+18:57:42.622 [main] INFO  testCases.TC002_LoginTest - ****** Enter Email in Login Page ******
+18:57:43.690 [main] INFO  testCases.TC002_LoginTest - ****** Enter Password in Login Page ******
+18:57:44.835 [main] INFO  testCases.TC002_LoginTest - ****** Clicking Login Button in Login Page ******
+18:57:45.905 [main] INFO  testCases.TC002_LoginTest - ****** Ending Login Test ******
