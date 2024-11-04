@@ -1,8 +1,15 @@
 package pageObject;
 
+import java.time.Duration;
+import java.util.List;
+
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HomePage extends BasePage {
 
@@ -20,6 +27,8 @@ public class HomePage extends BasePage {
 	@FindBy(xpath="//a[normalize-space()='Login']")
 	WebElement Login;
 	
+	@FindBy(xpath="//*[@id='content']/div[2]//img")
+	List<WebElement> products;
 	
 	public void clickMyAccount() {
 		
@@ -35,4 +44,23 @@ public class HomePage extends BasePage {
 		
 		Login.click();
 	}
+	
+	public void clickProduct(String prod) {
+		try {
+		for(WebElement product : products) {
+			
+			
+			if(product.getAttribute("title").equals(prod)) {
+				
+				product.click();
+				
+			}
+		}
+		}
+		catch(Exception e) {
+			
+		}
+	}
+	
+	
 }

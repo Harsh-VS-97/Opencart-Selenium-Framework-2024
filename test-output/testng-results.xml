@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-22T17:15:47 IST" name="Master Suite" finished-at="2024-10-22T17:16:10 IST" duration-ms="22695">
+  <suite started-at="2024-10-29T14:36:27 IST" name="Master Suite" finished-at="2024-10-29T14:36:50 IST" duration-ms="22117">
     <groups>
-      <group name="Master">
-        <method signature="TC001_AccountRegisteration.Account_Registeration_Test()[pri:0, instance:testCases.TC001_AccountRegisteration@5b1ebf56]" name="Account_Registeration_Test" class="testCases.TC001_AccountRegisteration"/>
-        <method signature="TC002_LoginTest.Login_Test()[pri:0, instance:testCases.TC002_LoginTest@6fb365ed]" name="Login_Test" class="testCases.TC002_LoginTest"/>
-      </group> <!-- Master -->
-      <group name="Sanity">
-        <method signature="TC002_LoginTest.Login_Test()[pri:0, instance:testCases.TC002_LoginTest@6fb365ed]" name="Login_Test" class="testCases.TC002_LoginTest"/>
-      </group> <!-- Sanity -->
-      <group name="Regression">
-        <method signature="TC001_AccountRegisteration.Account_Registeration_Test()[pri:0, instance:testCases.TC001_AccountRegisteration@5b1ebf56]" name="Account_Registeration_Test" class="testCases.TC001_AccountRegisteration"/>
-      </group> <!-- Regression -->
     </groups>
-    <test started-at="2024-10-22T17:15:47 IST" name="Test" finished-at="2024-10-22T17:16:10 IST" duration-ms="22695">
-      <class name="testCases.TC002_LoginTest">
-        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginTest@6fb365ed]" started-at="2024-10-22T17:16:02 IST" name="Setup" finished-at="2024-10-22T17:16:04 IST" duration-ms="2556" status="PASS">
+    <test started-at="2024-10-29T14:36:27 IST" name="Test" finished-at="2024-10-29T14:36:50 IST" duration-ms="22117">
+      <class name="testCases.TC007_ShopingCartTest">
+        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC007_ShopingCartTest@2783717b]" started-at="2024-10-29T14:36:28 IST" name="Setup" finished-at="2024-10-29T14:36:34 IST" duration-ms="6821" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,41 +23,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="Login_Test()[pri:0, instance:testCases.TC002_LoginTest@6fb365ed]" started-at="2024-10-22T17:16:04 IST" name="Login_Test" finished-at="2024-10-22T17:16:10 IST" duration-ms="5636" status="PASS">
+        <test-method signature="ShoppingCartTest()[pri:0, instance:testCases.TC007_ShopingCartTest@2783717b]" started-at="2024-10-29T14:36:34 IST" name="ShoppingCartTest" finished-at="2024-10-29T14:36:47 IST" duration-ms="12856" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login_Test -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC002_LoginTest@6fb365ed]" started-at="2024-10-22T17:16:10 IST" name="teardown" finished-at="2024-10-22T17:16:10 IST" duration-ms="139" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- testCases.TC002_LoginTest -->
-      <class name="testCases.TC001_AccountRegisteration">
-        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegisteration@5b1ebf56]" started-at="2024-10-22T17:15:47 IST" name="Setup" finished-at="2024-10-22T17:15:50 IST" duration-ms="2835" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method signature="Account_Registeration_Test()[pri:0, instance:testCases.TC001_AccountRegisteration@5b1ebf56]" started-at="2024-10-22T17:15:50 IST" name="Account_Registeration_Test" finished-at="2024-10-22T17:16:01 IST" duration-ms="11044" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Account_Registeration_Test -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC001_AccountRegisteration@5b1ebf56]" started-at="2024-10-22T17:16:01 IST" name="teardown" finished-at="2024-10-22T17:16:02 IST" duration-ms="329" status="PASS">
+        </test-method> <!-- ShoppingCartTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC007_ShopingCartTest@2783717b]" started-at="2024-10-29T14:36:47 IST" name="teardown" finished-at="2024-10-29T14:36:50 IST" duration-ms="2150" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- testCases.TC001_AccountRegisteration -->
+      </class> <!-- testCases.TC007_ShopingCartTest -->
     </test> <!-- Test -->
   </suite> <!-- Master Suite -->
 </testng-results>

@@ -20,6 +20,12 @@ public class LoginPage extends BasePage{
 	@FindBy(xpath="//button[normalize-space()='Login']")
 	WebElement btnLogin;
 	
+	@FindBy(xpath="//i[@class='fas fa-home']")
+	WebElement BtnHome;
+	
+	@FindBy(xpath="//img[@title='Your Store']")
+	WebElement Titlepage;
+	
 	public void EnterLoginEmail(String em) {
 		
 		txtLoginEmail.sendKeys(em);
@@ -36,5 +42,15 @@ public class LoginPage extends BasePage{
 		action.moveToElement(btnLogin).click().perform();
 		
 	}
+	
+	public void ClickHomeButton() {
+		
+		BtnHome.click();
+	}
+	
 
+	public String StoreTitle() {
+		
+		return Titlepage.getAttribute("title");
+	}
 }

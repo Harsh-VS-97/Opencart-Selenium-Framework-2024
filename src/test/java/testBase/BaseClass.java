@@ -32,6 +32,7 @@ public class BaseClass {
 	public Logger Logger;
 	public Properties Pr;
 	
+	@SuppressWarnings("deprecation")
 	@Parameters({"os","browser"})
 	@BeforeClass(groups= {"Sanity","Regression","Master"})
 	public void Setup(String OS,String BR) throws IOException {

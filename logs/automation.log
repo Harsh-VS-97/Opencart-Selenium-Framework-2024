@@ -1,31 +1,71 @@
-17:41:12.384 [main] INFO  testCases.TC001_AccountRegisteration - ****** Testing Account Created Message ******
-17:41:12.528 [main] INFO  testCases.TC001_AccountRegisteration - ****** Continue Button on Account Created Confirmation Page ******
-17:41:12.528 [main] INFO  testCases.TC001_AccountRegisteration - ****** Ending TC001_Account_Registeration_Test ******
-17:41:13.935 [main] INFO  testCases.TC002_LoginTest - ****** Starting Login Test ******
-17:41:13.990 [main] INFO  testCases.TC002_LoginTest - ****** Clicking My Account ******
-17:41:15.177 [main] INFO  testCases.TC002_LoginTest - ****** Clicking Login ******
-17:41:16.271 [main] INFO  testCases.TC002_LoginTest - ****** Enter Email in Login Page ******
-17:41:17.412 [main] INFO  testCases.TC002_LoginTest - ****** Enter Password in Login Page ******
-17:41:18.582 [main] INFO  testCases.TC002_LoginTest - ****** Clicking Login Button in Login Page ******
-17:41:19.629 [main] INFO  testCases.TC002_LoginTest - ****** Ending Login Test ******
-18:57:21.020 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Selenium Framework Workspace\OpencartFrameworkV1.0\masters.xml"
-18:57:27.673 [main] INFO  testCases.TC001_AccountRegisteration - ****** Starting TC001_Account_Registeration_Test ******
-18:57:27.747 [main] INFO  testCases.TC001_AccountRegisteration - ****** Clicking My Accounts ******
-18:57:29.921 [main] INFO  testCases.TC001_AccountRegisteration - ****** Clicking Register ******
-18:57:31.932 [main] INFO  testCases.TC001_AccountRegisteration - ****** On Register Page ******
-18:57:31.995 [main] INFO  testCases.TC001_AccountRegisteration - ****** Enter First Name ******
-18:57:33.071 [main] INFO  testCases.TC001_AccountRegisteration - ****** Enter Last Name ******
-18:57:34.146 [main] INFO  testCases.TC001_AccountRegisteration - ****** Enter Email ******
-18:57:35.216 [main] INFO  testCases.TC001_AccountRegisteration - ****** Enter New Password ******
-18:57:36.364 [main] INFO  testCases.TC001_AccountRegisteration - ****** Clicking Privacy Policy Button ******
-18:57:37.512 [main] INFO  testCases.TC001_AccountRegisteration - ****** Clicking Continue Button on Register Page ******
-18:57:38.547 [main] INFO  testCases.TC001_AccountRegisteration - ****** Testing Account Created Message ******
-18:57:38.704 [main] INFO  testCases.TC001_AccountRegisteration - ****** Continue Button on Account Created Confirmation Page ******
-18:57:38.704 [main] INFO  testCases.TC001_AccountRegisteration - ****** Ending TC001_Account_Registeration_Test ******
-18:57:40.253 [main] INFO  testCases.TC002_LoginTest - ****** Starting Login Test ******
-18:57:40.302 [main] INFO  testCases.TC002_LoginTest - ****** Clicking My Account ******
-18:57:41.498 [main] INFO  testCases.TC002_LoginTest - ****** Clicking Login ******
-18:57:42.622 [main] INFO  testCases.TC002_LoginTest - ****** Enter Email in Login Page ******
-18:57:43.690 [main] INFO  testCases.TC002_LoginTest - ****** Enter Password in Login Page ******
-18:57:44.835 [main] INFO  testCases.TC002_LoginTest - ****** Clicking Login Button in Login Page ******
-18:57:45.905 [main] INFO  testCases.TC002_LoginTest - ****** Ending Login Test ******
+13:49:28.117 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Selenium Framework Workspace\OpencartFrameworkV1.0\masters.xml"
+13:49:28.320 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Framework Workspace\OpencartFrameworkV1.0\masters.xml
+
+13:49:32.292 [main] INFO  testCases.TC007_ShopingCartTest - ****** Starting Shopping Cart Test ******
+13:49:32.292 [main] INFO  testCases.TC007_ShopingCartTest - ****** Click My account ******
+13:49:32.567 [main] INFO  testCases.TC007_ShopingCartTest - ****** Enter Email ID ******
+13:49:32.715 [main] INFO  testCases.TC007_ShopingCartTest - ****** Enter Password ******
+13:49:32.770 [main] INFO  testCases.TC007_ShopingCartTest - ****** Click Login Button ******
+13:49:33.936 [main] INFO  testCases.TC007_ShopingCartTest - ****** Click HomePage button on My Account ******
+13:49:35.183 [main] INFO  testCases.TC007_ShopingCartTest - ****** Click Shopping Cart link ******
+13:49:36.493 [main] INFO  testCases.TC007_ShopingCartTest - ****** Check if product exist ******
+13:49:36.494 [main] INFO  testCases.TC007_ShopingCartTest - ****** Check if Macbook Exist ******
+13:49:36.567 [main] INFO  testCases.TC007_ShopingCartTest - ****** Check if iPhone Exist ******
+13:49:36.610 [main] INFO  testCases.TC007_ShopingCartTest - ****** Update Product Quantity ******
+13:49:38.830 [main] INFO  testCases.TC007_ShopingCartTest - ****** Update Alert Testing ******
+13:49:40.871 [main] INFO  testCases.TC007_ShopingCartTest - ****** Delete Product ******
+13:49:42.941 [main] INFO  testCases.TC007_ShopingCartTest - ****** Update Alert Testing ******
+13:54:20.642 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Selenium Framework Workspace\OpencartFrameworkV1.0\masters.xml"
+13:54:20.838 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Framework Workspace\OpencartFrameworkV1.0\masters.xml
+
+13:54:24.930 [main] INFO  testCases.TC007_ShopingCartTest - ****** Starting Shopping Cart Test ******
+13:54:24.930 [main] INFO  testCases.TC007_ShopingCartTest - ****** Click My account ******
+13:54:25.245 [main] INFO  testCases.TC007_ShopingCartTest - ****** Enter Email ID ******
+13:54:25.357 [main] INFO  testCases.TC007_ShopingCartTest - ****** Enter Password ******
+13:54:25.413 [main] INFO  testCases.TC007_ShopingCartTest - ****** Click Login Button ******
+13:54:26.579 [main] INFO  testCases.TC007_ShopingCartTest - ****** Click HomePage button on My Account ******
+13:54:27.867 [main] INFO  testCases.TC007_ShopingCartTest - ****** Click Shopping Cart link ******
+13:54:29.117 [main] INFO  testCases.TC007_ShopingCartTest - ****** Check if product exist ******
+13:54:29.118 [main] INFO  testCases.TC007_ShopingCartTest - ****** Check if Macbook Exist ******
+13:54:29.187 [main] INFO  testCases.TC007_ShopingCartTest - ****** Check if iPhone Exist ******
+13:54:29.230 [main] INFO  testCases.TC007_ShopingCartTest - ****** Update Product Quantity ******
+13:54:31.415 [main] INFO  testCases.TC007_ShopingCartTest - ****** Update Alert Testing ******
+13:54:33.468 [main] INFO  testCases.TC007_ShopingCartTest - ****** Delete Product ******
+14:00:22.969 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Selenium Framework Workspace\OpencartFrameworkV1.0\masters.xml"
+14:00:23.171 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Framework Workspace\OpencartFrameworkV1.0\masters.xml
+
+14:00:27.231 [main] INFO  testCases.TC007_ShopingCartTest - ****** Starting Shopping Cart Test ******
+14:00:27.231 [main] INFO  testCases.TC007_ShopingCartTest - ****** Click My account ******
+14:00:27.487 [main] INFO  testCases.TC007_ShopingCartTest - ****** Enter Email ID ******
+14:00:27.625 [main] INFO  testCases.TC007_ShopingCartTest - ****** Enter Password ******
+14:00:27.681 [main] INFO  testCases.TC007_ShopingCartTest - ****** Click Login Button ******
+14:00:28.839 [main] INFO  testCases.TC007_ShopingCartTest - ****** Click HomePage button on My Account ******
+14:00:30.152 [main] INFO  testCases.TC007_ShopingCartTest - ****** Click Shopping Cart link ******
+14:00:31.460 [main] INFO  testCases.TC007_ShopingCartTest - ****** Check if product exist ******
+14:00:31.460 [main] INFO  testCases.TC007_ShopingCartTest - ****** Check if Macbook Exist ******
+14:00:31.517 [main] INFO  testCases.TC007_ShopingCartTest - ****** Check if iPhone Exist ******
+14:00:31.552 [main] INFO  testCases.TC007_ShopingCartTest - ****** Update Product Quantity ******
+14:00:33.784 [main] INFO  testCases.TC007_ShopingCartTest - ****** Update Alert Testing ******
+14:00:35.840 [main] INFO  testCases.TC007_ShopingCartTest - ****** Delete Product ******
+14:00:37.940 [main] INFO  testCases.TC007_ShopingCartTest - ****** Update Alert Testing ******
+14:36:27.563 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\Selenium Framework Workspace\OpencartFrameworkV1.0\masters.xml"
+14:36:27.893 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\Selenium Framework Workspace\OpencartFrameworkV1.0\masters.xml
+
+14:36:34.993 [main] INFO  testCases.TC007_ShopingCartTest - ****** Starting Shopping Cart Test ******
+14:36:34.993 [main] INFO  testCases.TC007_ShopingCartTest - ****** Click My account ******
+14:36:35.358 [main] INFO  testCases.TC007_ShopingCartTest - ****** Enter Email ID ******
+14:36:35.662 [main] INFO  testCases.TC007_ShopingCartTest - ****** Enter Password ******
+14:36:35.857 [main] INFO  testCases.TC007_ShopingCartTest - ****** Click Login Button ******
+14:36:37.035 [main] INFO  testCases.TC007_ShopingCartTest - ****** Click HomePage button on My Account ******
+14:36:38.390 [main] INFO  testCases.TC007_ShopingCartTest - ****** Click Shopping Cart link ******
+14:36:39.831 [main] INFO  testCases.TC007_ShopingCartTest - ****** Check if product exist ******
+14:36:39.831 [main] INFO  testCases.TC007_ShopingCartTest - ****** Check if Macbook Exist ******
+14:36:39.922 [main] INFO  testCases.TC007_ShopingCartTest - ****** Check if iPhone Exist ******
+14:36:39.980 [main] INFO  testCases.TC007_ShopingCartTest - ****** Update Product Quantity ******
+14:36:42.478 [main] INFO  testCases.TC007_ShopingCartTest - ****** Update Alert Testing ******
+14:36:44.556 [main] INFO  testCases.TC007_ShopingCartTest - ****** Delete Product ******
+14:36:46.782 [main] INFO  testCases.TC007_ShopingCartTest - ****** Update Alert Testing ******

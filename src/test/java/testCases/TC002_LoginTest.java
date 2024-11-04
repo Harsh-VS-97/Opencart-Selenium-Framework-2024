@@ -38,6 +38,10 @@ public class TC002_LoginTest extends BaseClass{
 		boolean status = ap.MyAccountText();
 		
 		Assert.assertEquals(status, true, "Login Fail");
+		
+		lp.ClickHomeButton();
+		Thread.sleep(2000);
+		System.out.println("Page Title: " + lp.StoreTitle());
 		}
 		catch(Exception e) {
 			
